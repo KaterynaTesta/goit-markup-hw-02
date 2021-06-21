@@ -30,11 +30,13 @@ body {
 .logo-item {
   color: var(--accent-color);
 }
+
+
 /* Navigation */
 .nav-link,
 .contact {
   font-family: var(--main-font);
-  font-weight: var(--secondary-font-weight);
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   color: var(--title-color);
@@ -80,7 +82,7 @@ body {
 /* Our advantages */
 .about-us {
   font-family: var(--main-font);
-  font-weight: var(--secondary-font-weight);
+  font-weight: var(--main-font-weight);
   font-size: 14px;
   line-height: 1.14;
   text-align: left;
@@ -119,6 +121,16 @@ body {
   color: var(--text-color);
 }
 /* Footer */
+.logo-footer
+ {
+  font-family: var(--secondary-font);
+  font-weight: var(--main-font-weight);
+  font-size: 26px;
+  line-height: 1.19;
+  /* color: #FFFFFF; */
+  text-align: left;
+}
+
 .contact-info-address {
 font-weight: var(--secondary-font-weight);
 font-size: 14px;
@@ -149,6 +161,7 @@ color: var(--text-color);
 /* Portfolio */
 /* Button */
 .menu-btn {
+  font-family: var(--main-font);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
