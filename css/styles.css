@@ -60,9 +60,11 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  /* color: #ffffff; */
-  text-transform: uppercase;
+  color: #ffffff; 
+    text-transform: uppercase;
   text-align: center;
+  letter-spacing: 0.06em;
+  background-color: blueviolet;
 }
 .modal-btn {
   font-family: var(--main-font);
@@ -85,6 +87,8 @@ body {
   font-weight: var(--main-font-weight);
   font-size: 14px;
   line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
   text-align: left;
   color: var(--title-color);
 }
@@ -121,13 +125,16 @@ body {
   color: var(--text-color);
 }
 /* Footer */
+.footer {
+  background-color: #2F303A;
+}
 .logo-footer
  {
   font-family: var(--secondary-font);
   font-weight: var(--main-font-weight);
   font-size: 26px;
   line-height: 1.19;
-  /* color: #FFFFFF; */
+   color: #FFFFFF; 
   text-align: left;
 }
 
@@ -136,7 +143,7 @@ font-weight: var(--secondary-font-weight);
 font-size: 14px;
 line-height: 1.71;
 text-align: left;
-/* color: #FFFFFF; */
+color: #FFFFFF; 
 }
 .contact-info-address:hover,
 .contact-info-address:focus{
